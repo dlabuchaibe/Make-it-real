@@ -1,18 +1,21 @@
-/* Crear un programa para calcular el salario de una persona con base en el número de horas trabajadas y 
-el valor de la hora. Si la persona trabaja más de 40 horas, las horas extras deben pagarse con un incremento 
-del 50% sobre el valor de la hora normal.
+/*var num = 8;
 
-Mostrar el salario total y cuánto ganó por horas extras
+if (num < 10) {
+  console.log("El número es menor a 10");
+} else {
+  if (num > 10) {
+    console.log("El número es mayor a 10");  
+  } else {
+    console.log("El número es igual a 10");
+  }
+}
 */
 
-var hora = 45;
-var horaSemanal = 40;
-var horaExtra= hora -horaSemanal;
-var valorHora = 40000;
-var salario = hora * valorHora;
-
-if (hora > 40) {
-    var incremento = (valorHora/horaSemanal) * 0.5;
-    console.log(salario + incremento);
-    console.log(incremento);
-}
+var num = 8;
+if (num < 10) {
+    console.log("El número es menor a 10");
+  } else if (num > 10) {
+      console.log("El número es mayor a 10");  
+    } else {
+      console.log("El número es igual a 10");
+    };
